@@ -60,7 +60,7 @@ podman run -v ~/.prometheus-gmail-exporter/:/root/.prometheus-gmail-exporter/ gm
 
 ```
 pip install -r requirements.txt
-./gmail-prometheus.py Label_33 INBOX
+./gmail-exporter.py Label_33 INBOX
 ```
 
 Options can be found with `--help`.
